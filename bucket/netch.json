@@ -1,0 +1,20 @@
+{
+    "version": "1.4.9",
+    "description": "游戏加速器",
+    "homepage": "https://netch.org/",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/NetchX/Netch/releases/download/1.4.9/Netch.zip",
+    "hash": "2f9ef62e67bfa1a6ce07e3df79c31e16609ebc87b31f2ec28e65e28ae947407c",
+    "shortcuts": [
+        [
+            "Netch.exe",
+            "Netch"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/NetchX/Netch"
+    },
+    "autoupdate": {
+        "url": "https://github.com/NetchX/Netch/releases/download/$version/Netch.zip"
+    }
+}

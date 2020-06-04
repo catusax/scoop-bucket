@@ -1,0 +1,15 @@
+{
+    "version": "0.3.4",
+    "description": "A workaround for accessing the WSL2 VM from the Windows host.",
+    "homepage": "https://github.com/shayne/go-wsl2-host",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/shayne/go-wsl2-host/releases/download/v0.3.4/wsl2host.exe",
+    "hash": "dc941929489bd9c8d298bdc11071c6c9f323ecde8c206940deec5d51c390148b",
+    "bin":"wsl2host.exe",
+    "checkver": {
+        "github": "https://github.com/shayne/go-wsl2-host"
+    },
+    "autoupdate": {
+        "url": "https://github.com/shayne/go-wsl2-host/releases/download/v$version/wsl2host.exe"
+    }
+}
