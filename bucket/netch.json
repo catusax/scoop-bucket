@@ -15,6 +15,9 @@
         "github": "https://github.com/NetchX/Netch"
     },
     "autoupdate": {
-        "url": "https://github.com/NetchX/Netch/releases/download/$version/Netch.zip"
+        "url": "https://github.com/NetchX/Netch/releases/download/$version/Netch.zip",
+        "hash": {
+            "url": "https://github.com/NetchX/Netch/releases/latest"
+        }
     }
 }
