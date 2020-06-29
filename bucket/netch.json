@@ -19,5 +19,9 @@
         "hash": {
             "url": "https://github.com/NetchX/Netch/releases/latest"
         }
-    }
+    },
+    "persist": [
+        "data",
+        "mode"
+    ]
 }
