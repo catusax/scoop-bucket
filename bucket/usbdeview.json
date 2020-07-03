@@ -9,7 +9,7 @@
     "autoupdate": {
         "url": "https://www.nirsoft.net/utils/usbdeview-x64.zip"
     },
-    "bin": "PingInfoView.exe",
+    "bin": "USBDeview.exe",
     "shortcuts": [
         [
             "USBDeview.exe",
