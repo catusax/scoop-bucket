@@ -1,0 +1,23 @@
+{
+    "version": "3.12.0",
+    "description": "sql浏览器",
+    "homepage": "https://sqlitebrowser.org/dl/",
+    "license": "Mozilla Public License Version 2",
+    "url": "https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.0-win64.zip",
+    "shortcuts": [
+        [
+            "Netch.exe",
+            "Netch"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sqlitebrowser/sqlitebrowser"
+    },
+    "autoupdate": {
+        "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v$version/DB.Browser.for.SQLite-$version-win64.zip"
+    },
+    "persist": [
+        "data",
+        "mode"
+    ]
+}
