@@ -5,6 +5,7 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/NetchX/Netch/releases/download/1.5.0/Netch.7z",
     "hash": "3412fc4890f29d1520ff15a728eee6a231ad5db05eee7bbabbede1ffa9260a7f",
+    "extract_dir": "Netch",
     "shortcuts": [
         [
             "Netch.exe",
