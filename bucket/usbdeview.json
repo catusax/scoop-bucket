@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.nirsoft.net/utils/usb_devices_view.html",
     "checkver": "USBDeview v([\\d.]+)",
-    "version": "3.00",
+    "version": "3.01",
     "license": "freeware",
     "description": "USBDeview is a small utility that lists all USB devices that currently connected to your computer, as well as all USB devices that you previously used. ",
     "url": "https://www.nirsoft.net/utils/usbdeview-x64.zip",
-    "hash": "4e693ec08dab05d1388f380c4ce0fc3d3ee4b165716cface7ea08d004d57295d",
+    "hash": "bc64eb677027f19e8bade7eeaba9b0b820d524aeec42c7ee92e3fd651ccf3d7a",
     "autoupdate": {
         "url": "https://www.nirsoft.net/utils/usbdeview-x64.zip"
     },
