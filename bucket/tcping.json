@@ -1,0 +1,7 @@
+{
+    "homepage": "https://www.elifulkerson.com/projects/tcping.php",
+    "version": "0.39",
+    "description": "tcping.exe is a console application that operates similarly to 'ping', however it works over a tcp port. ",
+    "url": "https://download.elifulkerson.com//files/tcping/0.39/tcping.exe",
+    "bin": "tcping.exe"
+}
