@@ -11,7 +11,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/sqlitebrowser/sqlitebrowser"
+        "url": "https://sqlitebrowser.org/dl/",
+        "regex": "latest release \\(([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v$version/DB.Browser.for.SQLite-$version-win64.zip"
