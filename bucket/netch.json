@@ -1,10 +1,10 @@
 {
-    "version": "1.6.7",
+    "version": "1.7.0",
     "description": "游戏加速器",
     "homepage": "https://netch.org/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/NetchX/Netch/releases/download/1.6.7/Netch.7z",
-    "hash": "42fd42c45ae536adc99b1d2e17758fdf20841febe84a272c32396335f2aa3cdc",
+    "url": "https://github.com/NetchX/Netch/releases/download/1.7.0/Netch.7z",
+    "hash": "a57b059019a9bf9918f7a1151d485fc08a2ab074c5240226c4e3b5f50a3aed5c",
     "shortcuts": [
         [
             "Netch.exe",
