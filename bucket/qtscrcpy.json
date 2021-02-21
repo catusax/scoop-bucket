@@ -5,10 +5,14 @@
     "license": "Apache 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x64-v1.4.5.zip"
+            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x64-v1.4.5.zip",
+            "hash": "644d11306c2fc3f9ee7f70051005c2d576bce3aa5013f7a9ff61da31e97223e4",
+            "extract_dir": "QtScrcpy-win-x64-v1.4.5"
+            
         },
         "32bit": {
-            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x86-v1.4.5.zip"
+            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x86-v1.4.5.zip",
+            "extract_dir": "QtScrcpy-win-x64-v1.4.5"
         }
     },
     "extract_dir": [
@@ -31,7 +35,8 @@
             "32bit": {
                 "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v$version/QtScrcpy-win-x86-v$version.zip"
             }
-        }
+        },
+        "extract_dir": "QtScrcpy-win-x64-v$version"
     },
     "persist": [
         "config"
