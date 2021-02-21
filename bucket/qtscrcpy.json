@@ -11,6 +11,9 @@
             "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x86-v1.4.5.zip"
         }
     },
+    "extract_dir": [
+        "QtScrcpy-win-x64-v$version"
+    ],
     "shortcuts": [
         [
             "QtScrcpy.exe",
