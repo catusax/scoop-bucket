@@ -1,0 +1,21 @@
+{
+    "version": "0.105.2",
+    "description": "Privacy protection center for you and your devices",
+    "homepage": "https://github.com/AdguardTeam/AdGuardHome",
+    "license": "GPL-3.0",
+    "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.105.2/AdGuardHome_windows_amd64.zip",
+    "extract_dir": "AdGuardHome",
+    "hash": "17E38524719F0DD9009F410FBE74686384A0EF3E25BD621993E1CD8CB14210D2",
+    "bin": "AdGuardHome.exe",
+    "checkver": {
+        "github": "https://github.com/AdguardTeam/AdGuardHome"
+    },
+    "autoupdate": {
+        "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_amd64.zip",
+        "extract_dir": "AdGuardHome"
+    },
+    "persist": [
+        "data",
+        "AdGuardHome.yaml"
+    ]
+}
