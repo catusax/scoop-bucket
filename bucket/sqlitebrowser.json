@@ -1,9 +1,9 @@
 {
-    "version": "3.12.0",
+    "version": "3.12.2",
     "description": "sql浏览器",
     "homepage": "https://sqlitebrowser.org/dl/",
     "license": "Mozilla Public License Version 2",
-    "url": "https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.0-win64.zip",
+    "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.zip",
     "hash": "559edc274a2823264e886159eaa36332fd5af1f2f4b86ba2a5ef485b6420ab54",
     "shortcuts": [
         [
