@@ -1,24 +1,21 @@
 {
-    "version": "1.4.5",
+    "version": "1.7.0",
     "description": "用电脑控制手机",
     "homepage": "https://github.com/barry-ran/QtScrcpy",
     "license": "Apache 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x64-v1.4.5.zip",
-            "hash": "644d11306c2fc3f9ee7f70051005c2d576bce3aa5013f7a9ff61da31e97223e4",
+            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.7.0/QtScrcpy-win-x64-v1.7.0.zip",
+            "hash": "668fe68b7b739650ea7cc35f615e69f2ef8287a9600d5cabbb0ecd2a76ee502f",
             "extract_dir": "QtScrcpy-win-x64-v1.4.5"
-            
         },
         "32bit": {
-            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x86-v1.4.5.zip",
-            "hash": "c6806f188ca21bd7ead9519eacd3b15eef5df6fb9d9dd5766ba74310a4b4cc25",
+            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.7.0/QtScrcpy-win-x86-v1.7.0.zip",
+            "hash": "585b3f5595429be299b562eaad2f8d7f590f7a8ed036e530e41f7edcf6aaa131",
             "extract_dir": "QtScrcpy-win-x64-v1.4.5"
         }
     },
-    "extract_dir": [
-        "QtScrcpy-win-x64-v$version"
-    ],
+    "extract_dir": "QtScrcpy-win-x64-v1.7.0",
     "shortcuts": [
         [
             "QtScrcpy.exe",
@@ -39,7 +36,5 @@
         },
         "extract_dir": "QtScrcpy-win-x64-v$version"
     },
-    "persist": [
-        "config"
-    ]
+    "persist": "config"
 }
