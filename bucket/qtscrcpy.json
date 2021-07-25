@@ -12,6 +12,7 @@
         },
         "32bit": {
             "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v1.4.5/QtScrcpy-win-x86-v1.4.5.zip",
+            "hash": "c6806f188ca21bd7ead9519eacd3b15eef5df6fb9d9dd5766ba74310a4b4cc25",
             "extract_dir": "QtScrcpy-win-x64-v1.4.5"
         }
     },

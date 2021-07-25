@@ -4,6 +4,7 @@
     "homepage": "https://sqlitebrowser.org/dl/",
     "license": "Mozilla Public License Version 2",
     "url": "https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.0-win64.zip",
+    "hash": "559edc274a2823264e886159eaa36332fd5af1f2f4b86ba2a5ef485b6420ab54",
     "shortcuts": [
         [
             "DB Browser for SQLite.exe",
