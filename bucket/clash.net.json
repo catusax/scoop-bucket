@@ -1,19 +1,19 @@
 {
     "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/tree/main",
     "description": "A Clash GUI Proxy For Windows Using WPF Technology",
-    "version": "1.1.2",
+    "version": "1.2.6",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.2/Clash.NET.1.1.2.x64.7z",
-            "hash": "bafa05c0eff04f8eb7160c15e9bafcafdf84caceaa751b0fea5038c1e8625df5"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.6/Clash.NET.1.2.6.x64.7z",
+            "hash": "224d2122288db405aef19226044cf7afd4e4cb229928b698ae775550a52d7682"
         },
         "32bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.2/Clash.NET.1.1.2.x86.7z",
-            "hash": "8906bb8ebca63af23b75eaab07d8637b1b02a53c6a8ca15cbdeca06ed9d499d0"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.6/Clash.NET.1.2.6.x86.7z",
+            "hash": "a19186bbd55444f423409e3c4387f196ad8959d3bd71ebaa627ca74dde97be10"
         }
     },
-    "extract_dir": "Clash .NET $version",
+    "extract_dir": "Clash .NET 1.2.6",
     "bin": "ClashDotNet.exe",
     "shortcuts": [
         [
@@ -28,10 +28,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.7z"
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.7z",
+                "extract_dir": "Clash .NET $version"
             },
             "32bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.7z"
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.7z",
+                "extract_dir": "Clash .NET $version"
             }
         }
     }
