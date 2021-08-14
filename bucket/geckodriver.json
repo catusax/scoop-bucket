@@ -1,0 +1,14 @@
+{
+    "version": "0.29.1",
+    "description": "Proxy for using W3C WebDriver compatible clients to interact with Gecko-based browsers.",
+    "homepage": "https://github.com/mozilla/geckodriver",
+    "license": "Mozilla Public License",
+    "url": "https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-win64.zip",
+    "bin": "geckodriver.exe",
+    "checkver": {
+        "github": "https://github.com/mozilla/geckodriver"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mozilla/geckodriver/releases/download/v$version/geckodriver-v$version-win64.zip"
+    }
+}
