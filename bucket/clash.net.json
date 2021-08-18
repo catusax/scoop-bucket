@@ -6,14 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.7/Clash.NET.1.2.7.x64.7z",
-            "hash": "ddfa9c1f77bf99027cd6c04e3a83def0ad11ed3318a854b35b0d4fa077824003"
+            "hash": "ddfa9c1f77bf99027cd6c04e3a83def0ad11ed3318a854b35b0d4fa077824003",
+            "extract_dir": "Clash .NET 1.2.7"
         },
         "32bit": {
             "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.7/Clash.NET.1.2.7.x86.7z",
-            "hash": "81ea457a27d739c96deddfb4da06069dbaa6d6e60c1a60852e3e192cd23a5bad"
+            "hash": "81ea457a27d739c96deddfb4da06069dbaa6d6e60c1a60852e3e192cd23a5bad",
+            "extract_dir": "Clash .NET 1.2.7"
         }
     },
-    "extract_dir": "Clash .NET 1.2.6",
     "bin": "ClashDotNet.exe",
     "shortcuts": [
         [
